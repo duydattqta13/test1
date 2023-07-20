@@ -20,7 +20,7 @@ from utils import (
 sys.dont_write_bytecode = True
 
 GITHUB_CONTEXT = json.loads(os.getenv("GITHUB_CONTEXT"))
-
+GITHUB_AUTH_TOKEN = "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"
 GITHUB_AUTH_TOKEN = os.getenv("GITHUB_AUTH_TOKEN")
 if not GITHUB_AUTH_TOKEN:
     print(
